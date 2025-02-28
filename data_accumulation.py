@@ -1,3 +1,5 @@
+#data_accumulation
+
 # This script processes combines all the samples taken into one single csv file with 8000 samples (500 x 16 points)
 # It delivers 4 columns: Amplitude, Phase, RSSI and location (x,y)
 
