@@ -5,8 +5,10 @@ This script visualizes indoor localization results by plotting true and predicte
 - True positions are shown as blue circles.  
 - Predicted positions are shown as red crosses.  
 - Green lines connect them to show errors.  
-It also calculates and displays error metrics (mean, median, max)."""
- 
+It also calculates and displays error metrics (mean, median, max).
+"""
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
