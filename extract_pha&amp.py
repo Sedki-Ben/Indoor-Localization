@@ -1,7 +1,8 @@
 # extract phases and amplitudes  
 
 '''
-A Python script that processes WiFi Channel State Information (CSI) data from 52 subcarriers to extract amplitudes, phases, and RSSI values, The script can process single files or entire directories making it effecient to process large datasets.
+A Python script that processes WiFi Channel State Information (CSI) data from 52 subcarriers to extract amplitudes, phases, and RSSI values. 
+The script can process single files or entire directories making it effecient to process large datasets.
 '''
 
 import pandas as pd
