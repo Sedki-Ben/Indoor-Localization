@@ -1,3 +1,5 @@
+#CSI processing 50 to 70
+
 ''' 
 A simple Python script that processes WiFi Channel State Information (CSI) by removing non-informative subcarriers. It reduces the original 64 subcarriers to 52 by eliminating guard bands, DC subcarriers, and pilot tones that don't carry useful signal information.
 The script can process all CSV files in a directory at once, making it efficient for processing large datasets. Each processed file maintains only the information-rich subcarriers, resulting in cleaner data for WiFi sensing applications.
