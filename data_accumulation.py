@@ -2,7 +2,11 @@
 
 """
 This script processes combines all the files in a single directory (500 samples per grid point x 16 grid points) into one single csv file with 8000 samples (500 x 16 points)
-It delivers 4 single-column files: csi_amplitude.npy, csi_phase.npy, rssi.npy and locations.npy
+It delivers 4 different files: 
+csi_amplitude.npy (8000 x 52) 
+csi_phase.npy (8000 x 52)
+rssi.npy (8000 x 1)  
+locations.npy (8000 x 2)
 """
 
 
